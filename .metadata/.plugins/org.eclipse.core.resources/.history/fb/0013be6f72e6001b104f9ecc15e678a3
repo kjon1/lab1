@@ -1,0 +1,22 @@
+
+public class MethodParams {
+	
+	public static void main(String[]args) {
+		//create a class instance
+		MethodParams mp = new MethodParams();
+		
+		//call your method here
+		double d = mp.convertIntToDouble(44);
+		
+		//print
+		System.out.println(d);
+		
+	}
+	
+	//create your first method here
+	public double convertIntToDouble(int num) {
+		return (double)num;
+		
+	}
+
+}
